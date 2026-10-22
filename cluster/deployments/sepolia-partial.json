@@ -1,0 +1,38 @@
+{
+  "dai": "0x1f4b7f87eb772d336d7e00dac3063177b93406c4",
+  "usdt": "0x485a4b97232f23101f192acd0c03a30400b265bc",
+  "oracle": "0xcccee9f0c81cc676f6552582c4f63114868df4c4",
+  "pricesSet": true,
+  "evc": "0xc4e5fb09e093524e9dd5f9034851908d10cfca09",
+  "cluster": "0xdd0ea00a4967db1db385f1b5bcd978fc78c0f602",
+  "vaults": {
+    "USDT": {
+      "token": "0x485a4b97232f23101f192acd0c03a30400b265bc",
+      "vault": "0xbe67fb9e84366f60c4717b8493893085b681ba90",
+      "ltvBps": 9000,
+      "supply": true,
+      "borrow": true,
+      "decimals": 6
+    },
+    "DAI": {
+      "token": "0x1f4b7f87eb772d336d7e00dac3063177b93406c4",
+      "vault": "0x5a8d2a936ab4a1ba4d37cf763771bc62a0a2ecfd",
+      "ltvBps": 8000,
+      "supply": true,
+      "borrow": true,
+      "decimals": 18
+    }
+  },
+  "twap": {
+    "pool": "0x9d09e2f1179b94e41089164e76c3bb5c5adfc150",
+    "tick": -237202,
+    "daiWhole": "20",
+    "usdtWhole": "1000",
+    "daiPerUsdt": "50"
+  },
+  "priceSource": "0x4f3277c1f433f3731af10e0e33fbad2d8c6c77b3",
+  "index": "0x3a805d477d9ee933d170a6d2a7ef28ad9cc1d0e3",
+  "treasury": "0xe6b28071c7f612cbddd5011ce9e606827880513b",
+  "settle": "0xa44e511a8c1c97dc85e0d303148c1403d971e84f",
+  "payee": "0x714356bc41229d5de3c481b0301befb29ba58a38"
+}

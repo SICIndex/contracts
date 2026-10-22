@@ -1,0 +1,384 @@
+{
+  "chainId": 11155111,
+  "network": "sepolia",
+  "deployer": "0xa291190c69f360E8969F62047de98c3Dc0b87D59",
+  "endpoint": "0x6EDCE65403992e310A62460808c4b910D972f10f",
+  "dai": "0x1f4b7f87eb772d336d7e00dac3063177b93406c4",
+  "usdt": "0x485a4b97232f23101f192acd0c03a30400b265bc",
+  "oracle": "0xcccee9f0c81cc676f6552582c4f63114868df4c4",
+  "evc": "0xc4e5fb09e093524e9dd5f9034851908d10cfca09",
+  "cluster": "0xdd0ea00a4967db1db385f1b5bcd978fc78c0f602",
+  "vaults": {
+    "USDT": {
+      "token": "0x485a4b97232f23101f192acd0c03a30400b265bc",
+      "vault": "0xbe67fb9e84366f60c4717b8493893085b681ba90",
+      "ltvBps": 9000,
+      "supply": true,
+      "borrow": true,
+      "decimals": 6
+    },
+    "DAI": {
+      "token": "0x1f4b7f87eb772d336d7e00dac3063177b93406c4",
+      "vault": "0x5a8d2a936ab4a1ba4d37cf763771bc62a0a2ecfd",
+      "ltvBps": 8000,
+      "supply": true,
+      "borrow": true,
+      "decimals": 18
+    },
+    "LPT": {
+      "token": "0xb9d08986F32c534868A950dbECaCF8ED1Cc9d1a3",
+      "vault": "0xdBc32d8f7722bd0eBf86515660C4dAEFa53d9882",
+      "ltvBps": 4000,
+      "supply": true,
+      "borrow": true,
+      "decimals": 18
+    },
+    "TRAC": {
+      "token": "0x397C9b4D3D4b9a5E611402C33885d93b18a54404",
+      "vault": "0xa9893f68C863e759ab4A19F21cC04369034Bd4B7",
+      "ltvBps": 5000,
+      "supply": true,
+      "borrow": true,
+      "decimals": 18
+    },
+    "IRYS": {
+      "token": "0x609B0199a24D4D106236AA45f03a1760022A58a2",
+      "vault": "0xD639103743959FD4467cD304af0e5aFb4A243dbc",
+      "ltvBps": 4000,
+      "supply": true,
+      "borrow": true,
+      "decimals": 18
+    },
+    "RENDER": {
+      "token": "0x54675D7A77e04F80e1BC004D6FBD41759f2F6Be5",
+      "vault": "0x3Da395FBB1381ff3a4173119544Aa51b5C33dcb6",
+      "ltvBps": 6000,
+      "supply": true,
+      "borrow": true,
+      "decimals": 18
+    },
+    "WETH": {
+      "token": "0x488F0C8Faba59f6DfCC89e4A32512969cE534767",
+      "vault": "0x644c651Eb8F2688122e7065b14097E5EF58B1cBb",
+      "ltvBps": 8000,
+      "supply": true,
+      "borrow": true,
+      "decimals": 18
+    },
+    "AKT": {
+      "token": "0x6a61e7654F4fEE11aE3D50f9179D87f7dFC157d7",
+      "vault": "0xC1D35Ab62BEF04471F4d4cb75217a0E2166E75C9",
+      "ltvBps": 4000,
+      "supply": true,
+      "borrow": true,
+      "decimals": 18
+    },
+    "RITUAL": {
+      "token": "0x98D3f53F9022f03f2D5C452bD42BaAF4908286cA",
+      "vault": "0xB10f7D94B3791bDAeBe7bf579005a355B3c940De",
+      "ltvBps": 4000,
+      "supply": true,
+      "borrow": true,
+      "decimals": 18
+    }
+  },
+  "twap": {
+    "pool": "0x9d09e2f1179b94e41089164e76c3bb5c5adfc150",
+    "tick": -237202,
+    "daiWhole": "20",
+    "usdtWhole": "1000",
+    "daiPerUsdt": "50"
+  },
+  "priceSource": "0x4f3277c1f433f3731af10e0e33fbad2d8c6c77b3",
+  "index": "0x3a805d477d9ee933d170a6d2a7ef28ad9cc1d0e3",
+  "treasury": "0xe6b28071c7f612cbddd5011ce9e606827880513b",
+  "settle": "0xa44e511a8c1c97dc85e0d303148c1403d971e84f",
+  "payee": "0x714356bc41229d5de3c481b0301befb29ba58a38",
+  "prices": {
+    "DAI": "50000000000000000000",
+    "USDT": "1000000000000000000",
+    "TRAC": "400000000000000000",
+    "RENDER": "7000000000000000000",
+    "LPT": "8000000000000000000",
+    "IRYS": "50000000000000000",
+    "AKT": "1500000000000000000",
+    "RITUAL": "1000000000000000000",
+    "WETH": "3000000000000000000000"
+  },
+  "gas": {
+    "maxFeePerGasGwei": "0.085",
+    "maxPriorityFeePerGasGwei": "0.0001"
+  },
+  "updatedAt": "2026-10-13T09:45:06.980Z",
+  "workload": {
+    "quoteId": "0x09044622b5e62f0ae3e60a9bc91b99bbcd56c8d6fec93a194c0c3aa527d6824a",
+    "payTx": "0x04a01c320dd18ca9119c8743fcc3f483a3d45f7ed131857be12ddc9e431b40fc",
+    "payer": "0xa291190c69f360E8969F62047de98c3Dc0b87D59",
+    "provider": "0x714356bc41229d5de3c481b0301befb29ba58a38",
+    "token": "0x485a4b97232f23101f192acd0c03a30400b265bc",
+    "spend": "100000000",
+    "fee": "250000",
+    "paid": "99750000",
+    "collateralDai": "10000000000000000000",
+    "at": "2026-10-11T10:51:53.656Z"
+  },
+  "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
+  "testnet": true,
+  "tokens": {
+    "DAI": "0x1f4b7f87eb772d336d7e00dac3063177b93406c4",
+    "USDT": "0x485a4b97232f23101f192acd0c03a30400b265bc",
+    "LPT": "0xb9d08986F32c534868A950dbECaCF8ED1Cc9d1a3",
+    "TRAC": "0x397C9b4D3D4b9a5E611402C33885d93b18a54404",
+    "IRYS": "0x609B0199a24D4D106236AA45f03a1760022A58a2",
+    "RENDER": "0x54675D7A77e04F80e1BC004D6FBD41759f2F6Be5",
+    "WETH": "0x488F0C8Faba59f6DfCC89e4A32512969cE534767",
+    "AKT": "0x6a61e7654F4fEE11aE3D50f9179D87f7dFC157d7",
+    "RITUAL": "0x98D3f53F9022f03f2D5C452bD42BaAF4908286cA"
+  },
+  "manualPriceSource": "0x6C2A122e3E226CfAFa66d7380CEa4884b9D8f8e4",
+  "set": {
+    "token": "0x84968F912bFf6d5D8EFc316F96298649d41652bA",
+    "controller": "0x56DED3AC533eFA581cBA831491b018C5942128C8",
+    "creator": "0x2E7d9D6c01c45E8996F107783987C13AAB82b5d5",
+    "issuance": "0x28563663B81a76b91838367722D71E18825bAe8B",
+    "desk": "0x7E932bebf6dBec083f93c4632b33ec8bFdAf2B1F",
+    "issuer": "0xB4CB6A8E375AEdDdc0b1087DEe9D40CBb8858699",
+    "paymentToken": "0x485a4b97232f23101f192acd0c03a30400b265bc",
+    "paymentDecimals": 6,
+    "name": "Super Intelligence Compute Index",
+    "symbol": "SICI"
+  },
+  "components": [
+    {
+      "id": "DAI",
+      "token": "0x1F4B7F87EB772D336D7e00DAC3063177b93406C4",
+      "decimals": 18
+    },
+    {
+      "id": "TRAC",
+      "token": "0x397C9b4D3D4b9a5E611402C33885d93b18a54404",
+      "decimals": 18
+    },
+    {
+      "id": "RENDER",
+      "token": "0x54675D7A77e04F80e1BC004D6FBD41759f2F6Be5",
+      "decimals": 18
+    },
+    {
+      "id": "LPT",
+      "token": "0xb9d08986F32c534868A950dbECaCF8ED1Cc9d1a3",
+      "decimals": 18
+    },
+    {
+      "id": "IRYS",
+      "token": "0x609B0199a24D4D106236AA45f03a1760022A58a2",
+      "decimals": 18
+    },
+    {
+      "id": "AKT",
+      "token": "0x6a61e7654F4fEE11aE3D50f9179D87f7dFC157d7",
+      "decimals": 18
+    },
+    {
+      "id": "RITUAL",
+      "token": "0x98D3f53F9022f03f2D5C452bD42BaAF4908286cA",
+      "decimals": 18
+    }
+  ],
+  "indexFromBlock": 11897790,
+  "feeSeed": {
+    "quoteId": "0x3bb80970b790323a0f0cd0f1e10933bd03f8330a028d9593d5721c07b0c38e12",
+    "skipped": false,
+    "blockNumber": 11897790,
+    "notionals": {
+      "DAI": "20",
+      "TRAC": "15",
+      "RENDER": "25",
+      "LPT": "15",
+      "IRYS": "15",
+      "AKT": "10"
+    }
+  },
+  "uniswap": {
+    "network": "sepolia",
+    "factory": "0x0227628f3F023bb0B980b67D528571c95c6DaC1c",
+    "positionManager": "0x1238536071E1c677A632429e3655c799b22cDA52",
+    "swapRouter02": "0x3bFA4769FB09eefC5a80d6E87c3B9C650f7Ae48E",
+    "quoterV2": "0xEd1f6473345F45b75F8179591dd5bA1888cf2FB3",
+    "pools": {
+      "DAI": {
+        "pair": "DAI/WETH",
+        "token0": "0x1f4b7f87eb772d336d7e00dac3063177b93406c4",
+        "token1": "0x488F0C8Faba59f6DfCC89e4A32512969cE534767",
+        "fee": 3000,
+        "sqrtPriceX96": "1580075886447495381771383974",
+        "priceUsd": "1",
+        "tx": {
+          "initialize": "0xb044256335a3997c46095dc1418243f7f1090e887b972a360c845af184fa7969",
+          "mint": "0x67ec63613697077af4df75bc4d90c843ac40f9e242a67b63ecca4510673adfd9"
+        }
+      },
+      "USDT": {
+        "pair": "USDT/WETH",
+        "token0": "0x485a4b97232f23101f192acd0c03a30400b265bc",
+        "token1": "0x488F0C8Faba59f6DfCC89e4A32512969cE534767",
+        "fee": 3000,
+        "sqrtPriceX96": "1579475343911384398802835055940489",
+        "priceUsd": "0.99924",
+        "tx": {
+          "initialize": "0x5ee89a9f5741c53290072bdc4e0b7dfb6ec29f80753877820938857b7dce2b85",
+          "mint": "0xc4493fef60430bbc280c81e534fc2174db2ad4d936035115482a02de1df5c840"
+        }
+      },
+      "LPT": {
+        "pair": "LPT/WETH",
+        "token0": "0x488F0C8Faba59f6DfCC89e4A32512969cE534767",
+        "token1": "0xb9d08986F32c534868A950dbECaCF8ED1Cc9d1a3",
+        "fee": 3000,
+        "sqrtPriceX96": "3046889901787404448905404315301",
+        "priceUsd": "1.7",
+        "tx": {
+          "initialize": "0xc68717eadc740a379914ea94d7665a6a81e0bb320bd01d322ea904b1aae9fc38",
+          "mint": "0x2c33908b098c49d95128256a3160560a196984244a2ca9b9b3365ed3120948c5"
+        }
+      },
+      "TRAC": {
+        "pair": "TRAC/WETH",
+        "token0": "0x397C9b4D3D4b9a5E611402C33885d93b18a54404",
+        "token1": "0x488F0C8Faba59f6DfCC89e4A32512969cE534767",
+        "fee": 3000,
+        "sqrtPriceX96": "1001607350063088157027646002",
+        "priceUsd": "0.401827",
+        "tx": {
+          "initialize": "0x797fb3af8cc1f1ff24c1d1fc79e0e8afbc3a9d9c18cf7b1ed525a4ebe1265ceb",
+          "mint": "0x4736633564b002702f267326cbefc9ec6967d657350c4684fd390f8269a9e4f6"
+        }
+      },
+      "RENDER": {
+        "pair": "RENDER/WETH",
+        "token0": "0x488F0C8Faba59f6DfCC89e4A32512969cE534767",
+        "token1": "0x54675D7A77e04F80e1BC004D6FBD41759f2F6Be5",
+        "fee": 3000,
+        "sqrtPriceX96": "2703051664078533982729945977958",
+        "priceUsd": "2.16",
+        "tx": {
+          "initialize": "0x005958504d8fb41470e331b2f34f85abdbdb441a92433ec126407fb46d0d3e2c",
+          "mint": "0x4140d100908d6cf7dede579d0c5a6652773ec10a463e8859afa5827cc12e1304"
+        }
+      },
+      "AKT": {
+        "pair": "AKT/WETH",
+        "token0": "0x488F0C8Faba59f6DfCC89e4A32512969cE534767",
+        "token1": "0x6a61e7654F4fEE11aE3D50f9179D87f7dFC157d7",
+        "fee": 3000,
+        "sqrtPriceX96": "4716265973141768687828385894882",
+        "priceUsd": "0.709522",
+        "tx": {
+          "initialize": "0xa9d9137693d136ddf184b468e664f8812575af85a4d52a0005997c642964980c",
+          "mint": "0xb68a5c101bddc66414b99c6044aaa26d979ef76ed81e1785bbecc8b8982c3824"
+        }
+      },
+      "IRYS": {
+        "pair": "IRYS/WETH",
+        "token0": "0x488F0C8Faba59f6DfCC89e4A32512969cE534767",
+        "token1": "0x609B0199a24D4D106236AA45f03a1760022A58a2",
+        "fee": 3000,
+        "sqrtPriceX96": "33750324831182203060012875268405",
+        "priceUsd": "0.013855",
+        "tx": {
+          "initialize": "0x7cb72de4a73015053702031afede5ec8074a2ea1deadd3c7ad155178cf96fa79",
+          "mint": "0x87c500a419e6110b9c5e73be3a8ed7984d9e95e4c4aa77bd9a266304bf8b6201"
+        }
+      }
+    },
+    "pricedAt": "2026-10-13T05:01:39.047Z",
+    "weth9": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+    "poolsWeth9": {
+      "DAI": {
+        "pair": "DAI/WETH9",
+        "token0": "0x1f4b7f87eb772d336d7e00dac3063177b93406c4",
+        "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+        "fee": 3000,
+        "sqrtPriceX96": "1580075886447494969608075470",
+        "priceUsd": "1",
+        "tx": {
+          "initialize": "0x0650b69f77e49f5d4c88334aceec3fb703d94637eb22a0199713f7dc88bc0d2a",
+          "mint": "0x38b1c0b7f9d10c032e1eefcef85dd956f91665fc880773c8dc089ffda18a2731"
+        }
+      },
+      "USDT": {
+        "pair": "USDT/WETH9",
+        "token0": "0x485a4b97232f23101f192acd0c03a30400b265bc",
+        "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+        "fee": 3000,
+        "sqrtPriceX96": "1579475536592485263731903479804349",
+        "priceUsd": "0.99924",
+        "tx": {
+          "initialize": "0x1c9281022b76c81da3ecaf5c1a3404a96765acbe2ef76b1393136d84f5650407",
+          "mint": "0x0c6e5e4c01fdc7d85a8ab860e7b0cc5cec5257779ee7af72bd264513ee5633b8"
+        }
+      },
+      "LPT": {
+        "pair": "LPT/WETH9",
+        "token0": "0xb9d08986F32c534868A950dbECaCF8ED1Cc9d1a3",
+        "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+        "fee": 3000,
+        "sqrtPriceX96": "2060166903866243292159989260",
+        "priceUsd": "1.7",
+        "tx": {
+          "initialize": "0x039c1d1e36554aa9268e2b6f229381d92f693c43ad809bee6c9960e34a44383b",
+          "mint": "0x86bd61af9c17722c6ca6fe45f7aab48c01dd395e7968fb72ffb62179b2a09ccc"
+        }
+      },
+      "TRAC": {
+        "pair": "TRAC/WETH9",
+        "token0": "0x397C9b4D3D4b9a5E611402C33885d93b18a54404",
+        "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+        "fee": 3000,
+        "sqrtPriceX96": "1001607350063087895796445836",
+        "priceUsd": "0.401827",
+        "tx": {
+          "initialize": "0xa4d25881a64388ff092648c247100e93b1e13f4537a30212a3320386c870c985",
+          "mint": "0x67d57e1d581fc30d7531c6607c9ac5d70b0aee74f5fa4616cca5772abf558046"
+        }
+      },
+      "RENDER": {
+        "pair": "RENDER/WETH9",
+        "token0": "0x54675D7A77e04F80e1BC004D6FBD41759f2F6Be5",
+        "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+        "fee": 3000,
+        "sqrtPriceX96": "2322227806003305947187264610",
+        "priceUsd": "2.16",
+        "tx": {
+          "initialize": "0x995e69be0b6e0b2a3e4531f450863b606d6b7d5018a508cccf21cdbd554f5110",
+          "mint": "0x99259e4bcb4becd9ff6b6f30612aa1cfa377902fac0da500d9c93df4c36fb603"
+        }
+      },
+      "AKT": {
+        "pair": "AKT/WETH9",
+        "token0": "0x6a61e7654F4fEE11aE3D50f9179D87f7dFC157d7",
+        "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+        "fee": 3000,
+        "sqrtPriceX96": "1330947357747330435874438561",
+        "priceUsd": "0.709522",
+        "tx": {
+          "initialize": "0x8045d20a30c0a9e294f0a4627e33ed3afb866c6887a5832d24b5e5812183932a",
+          "mint": "0xf6b5561426b54ee3d3ddf6b352815a7c907d54b78530be5ea2da74cb69ce4705"
+        }
+      },
+      "IRYS": {
+        "pair": "IRYS/WETH9",
+        "token0": "0x609B0199a24D4D106236AA45f03a1760022A58a2",
+        "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+        "fee": 3000,
+        "sqrtPriceX96": "185986409517078577522200304",
+        "priceUsd": "0.013855",
+        "tx": {
+          "initialize": "0x269d05ef1a0dce1ed911c4e7be743506e4bbb596c7cf8426f78bf914efcf686c",
+          "mint": "0xa268202e3194845bf1d6a3df2d989d3d60884a13b6a56df32802e389ad228a30"
+        }
+      }
+    },
+    "poolsWeth9PricedAt": "2026-10-13T09:45:06.980Z"
+  }
+}

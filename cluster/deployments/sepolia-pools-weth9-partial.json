@@ -1,0 +1,89 @@
+{
+  "wrapped": true,
+  "pools": {
+    "DAI": {
+      "pair": "DAI/WETH9",
+      "token0": "0x1f4b7f87eb772d336d7e00dac3063177b93406c4",
+      "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "fee": 3000,
+      "sqrtPriceX96": "1580075886447494969608075470",
+      "priceUsd": "1",
+      "tx": {
+        "initialize": "0x0650b69f77e49f5d4c88334aceec3fb703d94637eb22a0199713f7dc88bc0d2a",
+        "mint": "0x38b1c0b7f9d10c032e1eefcef85dd956f91665fc880773c8dc089ffda18a2731"
+      }
+    },
+    "USDT": {
+      "pair": "USDT/WETH9",
+      "token0": "0x485a4b97232f23101f192acd0c03a30400b265bc",
+      "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "fee": 3000,
+      "sqrtPriceX96": "1579475536592485263731903479804349",
+      "priceUsd": "0.99924",
+      "tx": {
+        "initialize": "0x1c9281022b76c81da3ecaf5c1a3404a96765acbe2ef76b1393136d84f5650407",
+        "mint": "0x0c6e5e4c01fdc7d85a8ab860e7b0cc5cec5257779ee7af72bd264513ee5633b8"
+      }
+    },
+    "LPT": {
+      "pair": "LPT/WETH9",
+      "token0": "0xb9d08986F32c534868A950dbECaCF8ED1Cc9d1a3",
+      "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "fee": 3000,
+      "sqrtPriceX96": "2060166903866243292159989260",
+      "priceUsd": "1.7",
+      "tx": {
+        "initialize": "0x039c1d1e36554aa9268e2b6f229381d92f693c43ad809bee6c9960e34a44383b",
+        "mint": "0x86bd61af9c17722c6ca6fe45f7aab48c01dd395e7968fb72ffb62179b2a09ccc"
+      }
+    },
+    "TRAC": {
+      "pair": "TRAC/WETH9",
+      "token0": "0x397C9b4D3D4b9a5E611402C33885d93b18a54404",
+      "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "fee": 3000,
+      "sqrtPriceX96": "1001607350063087895796445836",
+      "priceUsd": "0.401827",
+      "tx": {
+        "initialize": "0xa4d25881a64388ff092648c247100e93b1e13f4537a30212a3320386c870c985",
+        "mint": "0x67d57e1d581fc30d7531c6607c9ac5d70b0aee74f5fa4616cca5772abf558046"
+      }
+    },
+    "RENDER": {
+      "pair": "RENDER/WETH9",
+      "token0": "0x54675D7A77e04F80e1BC004D6FBD41759f2F6Be5",
+      "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "fee": 3000,
+      "sqrtPriceX96": "2322227806003305947187264610",
+      "priceUsd": "2.16",
+      "tx": {
+        "initialize": "0x995e69be0b6e0b2a3e4531f450863b606d6b7d5018a508cccf21cdbd554f5110",
+        "mint": "0x99259e4bcb4becd9ff6b6f30612aa1cfa377902fac0da500d9c93df4c36fb603"
+      }
+    },
+    "AKT": {
+      "pair": "AKT/WETH9",
+      "token0": "0x6a61e7654F4fEE11aE3D50f9179D87f7dFC157d7",
+      "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "fee": 3000,
+      "sqrtPriceX96": "1330947357747330435874438561",
+      "priceUsd": "0.709522",
+      "tx": {
+        "initialize": "0x8045d20a30c0a9e294f0a4627e33ed3afb866c6887a5832d24b5e5812183932a",
+        "mint": "0xf6b5561426b54ee3d3ddf6b352815a7c907d54b78530be5ea2da74cb69ce4705"
+      }
+    },
+    "IRYS": {
+      "pair": "IRYS/WETH9",
+      "token0": "0x609B0199a24D4D106236AA45f03a1760022A58a2",
+      "token1": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "fee": 3000,
+      "sqrtPriceX96": "185986409517078577522200304",
+      "priceUsd": "0.013855",
+      "tx": {
+        "initialize": "0x269d05ef1a0dce1ed911c4e7be743506e4bbb596c7cf8426f78bf914efcf686c",
+        "mint": "0xa268202e3194845bf1d6a3df2d989d3d60884a13b6a56df32802e389ad228a30"
+      }
+    }
+  }
+}
