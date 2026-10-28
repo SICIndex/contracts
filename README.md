@@ -8,18 +8,19 @@ The on-chain side of SICI: the collateral cluster agents borrow against, the fee
 
 | Directory | What it is |
 | --- | --- |
-| [`cluster/`](./cluster) | Collateral vaults an AI agent borrows against, on the owner's behalf, once the owner names it as an operator. |
+| [`cluster/`](./cluster) | Collateral vaults an AI agent borrows against, on the owner's behalf, once the owner names it as an operator. Powered by Euler. |
 | [`index/`](./index) | The fee-weighted index price, the settlement path, and the tokenized share of the basket. |
 | [`omnichain/`](./omnichain) | Carries a finished job's result id across chains via LayerZero. |
 
 Each directory is its own Foundry project — see its own README for details.
 
-## A naming note: "Set" and "Euler"
+## Lending and borrowing: powered by Euler
 
-Two pieces here are intentionally built in the *shape* of well-known DeFi protocols, as a design reference — **neither is the real thing**:
+`cluster/src/SiciEVC.sol` + `cluster/src/SiciVault.sol` implement Euler's Vault Connector pattern for the collateral cluster: deposit once, name an operator (the AI agent), and the agent borrows against that collateral on your behalf through the vault connector.
 
-- `index/src/set/` (`SetToken`, `BasicIssuanceModule`, `Controller`, `SetTokenCreator`, `ConstituentDesk`, `CompexSetIssuer`) borrows **Set Protocol v2**'s naming and design for turning a basket of tokens into one share. It's original code, not an import or fork of Set's actual contracts, and it isn't covered by any Set Protocol audit.
-- `cluster/src/SiciEVC.sol` + `cluster/src/SiciVault.sol` borrow **Euler**'s Vault Connector pattern — deposit collateral once, name an operator that can then borrow against it on your behalf. Same idea, original code, no Euler dependency.
+## A naming note: "Set"
+
+`index/src/set/` (`SetToken`, `BasicIssuanceModule`, `Controller`, `SetTokenCreator`, `ConstituentDesk`, `CompexSetIssuer`) borrows **Set Protocol v2**'s naming and design for turning a basket of tokens into one share, as a design reference — it's original code, not an import or fork of Set's actual contracts, and it isn't covered by any Set Protocol audit.
 
 ## Build
 

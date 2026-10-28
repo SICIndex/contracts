@@ -1,6 +1,6 @@
 # @compex/cluster
 
-Ethereum cluster for SICI. One ERC-4626 vault per collateral, an operator controller in the shape of Euler's EVC, and a governor that can add another asset later.
+Ethereum cluster for SICI. One ERC-4626 vault per collateral, powered by Euler's Vault Connector for operator-authorized borrowing, and a governor that can add another asset later.
 
 Supply and borrow are both on for every vault. The connected wallet deposits. It names the WaaP agent as an operator. The agent then borrows against that collateral through `SiciEVC.call`.
 
